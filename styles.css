@@ -1,14 +1,22 @@
 * {
     margin: 0;
+    padding: 0;
 }
 
-.toolbar {
+.navbar {
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: lightblue;
+    align-items: center; 
     height: 5vh;
-    padding: 0 100px;
+    list-style: none;
+    background-color: rgb(222, 204, 246);
+    margin-bottom: 10px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    padding: 0 20px;
 }
 
 .dashboard {
@@ -21,17 +29,10 @@
     ;
     height: 95vh;
     gap: 10px;
-    margin-top: 10px;
-}
-
-.tool1, .tool2, .tool3, .tool4, .tool5, .tool6, .tool7, .tool8 {
-    border: 1px solid red;
-    flex: 1;
 }
 
 .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
     border-radius: 20px;
-
 }
 
 .box1 {

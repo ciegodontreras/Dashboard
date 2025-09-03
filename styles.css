@@ -3,20 +3,41 @@
     padding: 0;
 }
 
-.navbar {
+.navBar {
     display: flex;
-    justify-content: center;
-    align-items: center; 
-    height: 5vh;
+    justify-content: center; 
     list-style: none;
-    background-color: rgb(222, 204, 246);
-    margin-bottom: 10px;
 }
 
 li a {
+    display: flex;
+    align-items: center;
     text-decoration: none;
     color: black;
-    padding: 0 20px;
+    height: 5vh;
+    padding: 0 10px;
+}
+
+li a:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+.navBar .tool5 {
+    margin-left: auto;
+}
+
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: none;
+    flex-direction: column;
+    list-style: none;
+    height: 100vh;
+    width: 400px;
+    z-index: 999;
+    backdrop-filter: blur(5px);
 }
 
 .dashboard {
